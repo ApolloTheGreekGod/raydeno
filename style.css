@@ -10,7 +10,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: #2e2e2e;
 }
 li {
     float: left;
