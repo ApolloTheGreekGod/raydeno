@@ -39,7 +39,7 @@ li a:hover {
 .navbutton1 {
 display: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
     ul {
         flex-direction: column;
     }
