@@ -30,3 +30,16 @@ li a {
 li a:hover {
     background-color: black;
 }
+
+@media only screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
+    li {
+        margin: 0;
+    }
+
+a {
+    display: block;
+} 
+}
