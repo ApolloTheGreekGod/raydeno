@@ -1,2 +1,3 @@
-# raydeno
-HELLO THIS IS A WEBSITE HHAHAHAHAHAHAHAHAHAHAH
+# Raydeno
+## iToilet
+This is a website about...
