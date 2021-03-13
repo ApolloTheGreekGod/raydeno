@@ -1,6 +1,7 @@
 body {
 background-color: black;
 font-family: Arial, Helvetica, sans-serif;
+margin: 0;
 }
 h1 {
 color: white;
@@ -9,31 +10,36 @@ color: white;
     font-size: 70px;
     color: white;
 }
+nav {
+    width: 100vw;
+    background-color: #2e2e2e;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2e2e2e;
+    display: flex;
 }
 li {
+    list-style-type: none;
     float: left;
 }
 li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 2vw;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 li a:hover {
     background-color: black;
 }
-.disappear {
+.navbutton1 {
 display: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     ul {
         flex-direction: column;
     }
@@ -43,5 +49,14 @@ display: none;
 
 a {
     display: block;
-} 
+}
+
+.navbutton1 {
+display: block;
+padding: none;
+font-size: 10px;
+background-color: white;
+cursor: pointer;
+align-self: flex-start;
+}
 }
