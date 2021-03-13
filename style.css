@@ -2,11 +2,12 @@ body {
 background-color: black;
 font-family: Arial, Helvetica, sans-serif;
 }
-h2 {
+h1 {
 color: white;
 }
-.fontbig {
+.font1 {
     font-size: 70px;
+    color: white;
 }
 ul {
     list-style-type: none;
