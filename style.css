@@ -53,9 +53,11 @@ a {
 
 .navbutton1 {
 display: block;
-padding: none;
+padding: 2vw;
 font-size: 10px;
 background-color: white;
+border: none;
+outline: none;
 cursor: pointer;
 align-self: flex-start;
 }
