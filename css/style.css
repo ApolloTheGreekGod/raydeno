@@ -100,4 +100,20 @@ align-self: flex-start;
 .font2 {
     margin-top: 10%;
     font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font3 {
+    color: white;
+    font-size: 70px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
