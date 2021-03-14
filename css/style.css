@@ -44,7 +44,7 @@ li a:hover {
 .navbutton1 {
 display: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1366px) {
     ul {
         flex-direction: column;
     }
@@ -77,10 +77,10 @@ align-self: flex-start;
     border-bottom: 1px solid rgb(49, 49, 49);
 }
 .space-1 {
-    margin-top: 50px;
+    margin-top: 5%;
 }
 .space-2{
-    margin-top: 80px;
+    margin-top: 6%;
 }
 .parallax {
     background-image: url('../images/toilet1.png');
@@ -89,4 +89,15 @@ align-self: flex-start;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.toilet2 {
+    width: 45%;
+    height: auto;
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.font2 {
+    margin-top: 10%;
+    font-size: 200%;
 }
