@@ -90,8 +90,13 @@ align-self: flex-start;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallaxText {
-    text-align: center;
+.parallaxHeader {
+    
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
 }
 .toilet2 {
     width: 45%;
