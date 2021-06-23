@@ -117,4 +117,5 @@ footer {
     padding: 3px;
     background-color: grey;
     color: white;
+    position: absolute;
 }
