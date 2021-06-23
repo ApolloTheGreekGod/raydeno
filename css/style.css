@@ -44,7 +44,7 @@ li a:hover {
 .navbutton1 {
 display: none;
 }
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1024px) {
     ul {
         flex-direction: column;
     }
@@ -90,12 +90,18 @@ align-self: flex-start;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallaxText {
+    text-align: center;
+}
 .toilet2 {
     width: 45%;
     height: auto;
     display: flex;
     margin-left: 2%;
     margin-bottom: 1%;
+    box-align: left;
+    float: left;
+ padding: 0 10px 0 0;
 }
 .font2 {
     margin-top: 10%;
@@ -106,14 +112,9 @@ align-self: flex-start;
     color: white;
     font-size: 70px;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #2e2e2e;
-    color: white;
+footer {
     text-align: center;
-    font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    background-color: grey;
+    color: white;
 }
