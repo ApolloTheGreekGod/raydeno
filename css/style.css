@@ -96,6 +96,11 @@ align-self: flex-start;
         top: 100%;
         left: 50%;
         transform: translate(-50%, -50%);
+        display:block;
+        font-size: 250%;
+        background-color: grey;
+        padding: 15px;
+        
     
 }
 .toilet2 {
