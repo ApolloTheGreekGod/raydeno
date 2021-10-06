@@ -104,14 +104,25 @@ align-self: flex-start;
     
 }
 .toilet2 {
-    width: 45%;
+    width: 35%;
     height: auto;
     display: flex;
-    margin-left: 2%;
-    margin-bottom: 1%;
+   margin-left: 2%;
     box-align: left;
     float: left;
  padding: 0 10px 0 0;
+}
+.invisiblebox {
+    margin-top: 30%;
+    margin-bottom: auto;
+}
+.m1 {
+
+    width:30%;
+    height:auto;
+    display: flex;
+    box-align: right;
+    float: right;
 }
 .font2 {
     margin-top: 10%;
@@ -122,11 +133,19 @@ align-self: flex-start;
     color: white;
     font-size: 70px;
 }
+
+.font4 {
+    color:white;
+    margin-top: 10%;
+    font-size: 180%;
+}
 footer {
     text-align: center;
+    margin-right: auto;
     padding: 3px;
     background-color: grey;
     color: white;
     position: relative;
     top: 100%;
+    float: none;
 }
