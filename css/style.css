@@ -2,18 +2,15 @@ body {
 background-color: black;
 font-family: Arial, Helvetica, sans-serif;
 margin: 0;
-}
-h1 {
 color: white;
 }
+
 p{
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 .font1 {
     font-size: 90px;
-    color: white;
 }
 nav {
     width: 100vw;
@@ -32,11 +29,24 @@ li {
 }
 li a {
     display: inline-block;
-    color: white;
     text-align: center;
     padding: 1.2vw;
     text-decoration: none;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+li button {
+    display: inline-block;
+    text-align: center;
+    padding: 1.2vw;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color:#2e2e2e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li button:hover {
+    background-color: black;
 }
 li a:hover {
     background-color: black;
@@ -143,12 +153,10 @@ align-self: flex-start;
     word-wrap: normal;
 }
 .font3 {
-    color: white;
     font-size: 70px;
 }
 
 .font4 {
-    color:white;
     font-size: 180%;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 3%;
@@ -159,8 +167,12 @@ footer {
     margin-right: auto;
     padding: 3px;
     background-color: grey;
-    color: white;
     position: relative;
     top: 100%;
     float: none;
 }
+.lightmode {
+    color: black;
+    background-color: white;
+}
+
